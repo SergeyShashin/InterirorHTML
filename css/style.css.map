@@ -1,0 +1,15 @@
+{
+    "version": 3,
+    "mappings": "ACAA,UAAU;EACR,WAAW,EAAE,iBAAiB;EAC9B,GAAG,EAAE,iCAAiC;EACtC,WAAW,EAAE,GAAG;;;AAElB,UAAU;EACR,WAAW,EAAE,kBAAkB;EAC/B,GAAG,EAAE,kCAAkC;EACvC,WAAW,EAAE,GAAG;;;AAElB,UAAU;EACR,WAAW,EAAE,mBAAmB;EAChC,GAAG,EAAE,mCAAmC;EACxC,WAAW,EAAE,GAAG;;;AAElB,UAAU;EACR,WAAW,EAAE,iBAAiB;EAC9B,GAAG,EAAE,iCAAiC;EACtC,WAAW,EAAE,GAAG;;;AAElB,UAAU;EACR,WAAW,EAAE,kBAAkB;EAC/B,GAAG,EAAE,kCAAkC;EACvC,WAAW,EAAE,GAAG;;;ACvBlB,AAAA,IAAI,CAAC;EACH,WAAW,EAAE,iBAAiB;EAC9B,SAAS,EAAE,IAAI;EACf,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,MAAM;EACtB,SAAS,EAAE,CAAC;EACZ,UAAU,EAAE,UAAU;CAAG",
+    "sources": [
+        "../sass/style.sass",
+        "../sass/_fonts.sass",
+        "../sass/_body.sass",
+        "../sass/_navbar.sass",
+        "../sass/_logo.sass",
+        "../sass/_nav.sass",
+        "../sass/_footer.sass"
+    ],
+    "names": [],
+    "file": "style.css"
+}
