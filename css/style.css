@@ -357,4 +357,27 @@ body {
       -ms-flex-align: center;
           align-items: center;
 }
+
+.promo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+}
+
+.product-promo {
+  position: relative;
+}
+
+.product-promo img {
+  width: 100%;
+}
+
+.product-promo .product-promo-text {
+  position: absolute;
+  z-index: 1;
+}
 /*# sourceMappingURL=style.css.map */
