@@ -480,7 +480,6 @@ body {
 
 .product-exclusive {
   padding: 100px;
-  width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -559,5 +558,70 @@ body {
   line-height: 24px;
   font-weight: 300;
   color: #6c6c6c;
+}
+
+.mobile-app {
+  background: url(../img/back_img.png) no-repeat;
+  background-size: cover;
+  height: 516px;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.mobile-app__content {
+  padding-left: 100px;
+  width: 35%;
+}
+
+.mobile-app__content h4 {
+  margin: 0;
+  font-family: 'Montserrat-Bold';
+  font-size: 18px;
+  line-height: 48px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #6c6c6c;
+}
+
+.mobile-app__content h3 {
+  margin: 0;
+  font-size: 62px;
+  line-height: 72px;
+  text-transform: uppercase;
+  color: #212121;
+}
+
+.mobile-app__content p {
+  font-family: 'Montserrat-Light';
+  font-size: 22px;
+  line-height: 24px;
+  color: #6c6c6c;
+}
+
+.mobile-app__buttons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 41px;
+}
+
+.mobile-app__buttons .appStore {
+  display: block;
+  margin-right: 10px;
+  width: 135px;
+  height: 40px;
+  background: url(../img/app_store.png) no-repeat;
+}
+
+.mobile-app__buttons .googlePlay {
+  width: 135px;
+  height: 40px;
+  display: block;
+  background: url(../img/google_play.png) no-repeat;
 }
 /*# sourceMappingURL=style.css.map */
