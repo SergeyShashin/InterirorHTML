@@ -573,12 +573,12 @@ body {
           align-items: center;
 }
 
-.mobile-app__content {
+.mobile-app-content {
   padding-left: 100px;
   width: 35%;
 }
 
-.mobile-app__content h4 {
+.mobile-app-content h4 {
   margin: 0;
   font-family: 'Montserrat-Bold';
   font-size: 18px;
@@ -588,7 +588,7 @@ body {
   color: #6c6c6c;
 }
 
-.mobile-app__content h3 {
+.mobile-app-content h3 {
   margin: 0;
   font-size: 62px;
   line-height: 72px;
@@ -596,21 +596,21 @@ body {
   color: #212121;
 }
 
-.mobile-app__content p {
+.mobile-app-content p {
   font-family: 'Montserrat-Light';
   font-size: 22px;
   line-height: 24px;
   color: #6c6c6c;
 }
 
-.mobile-app__buttons {
+.mobile-app-links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   height: 41px;
 }
 
-.mobile-app__buttons .appStore {
+.mobile-app-links .appStore {
   display: block;
   margin-right: 10px;
   width: 135px;
@@ -618,10 +618,15 @@ body {
   background: url(../img/app_store.png) no-repeat;
 }
 
-.mobile-app__buttons .googlePlay {
+.mobile-app-links .googlePlay {
   width: 135px;
   height: 40px;
   display: block;
   background: url(../img/google_play.png) no-repeat;
+}
+
+.footer {
+  height: 384px;
+  background-color: #f7f7f7;
 }
 /*# sourceMappingURL=style.css.map */
