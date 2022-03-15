@@ -467,4 +467,14 @@ body {
   margin-right: 15px;
   margin-bottom: 30px;
 }
+
+.hot-deal {
+  background: url(../img/hot-deal.png) no-repeat 100%;
+  width: 100%;
+  background-size: cover;
+}
+
+.hot-deal h4 {
+  color: #e53935;
+}
 /*# sourceMappingURL=style.css.map */
