@@ -1,30 +1,30 @@
 @font-face {
   font-family: 'Montserrat-Thin';
-  src: url(../fonts/Montserrat-Thin.ttf);
+  src: url(../assets/fonts/Montserrat-Thin.ttf);
   font-weight: 100;
 }
 
 @font-face {
   font-family: 'Montserrat-Light';
-  src: url(../fonts/Montserrat-Light.ttf);
+  src: url(../assets/fonts/Montserrat-Light.ttf);
   font-weight: 300;
 }
 
 @font-face {
   font-family: 'Montserrat-Medium';
-  src: url(../fonts/Montserrat-Medium.ttf);
+  src: url(../assets/fonts/Montserrat-Medium.ttf);
   font-weight: 500;
 }
 
 @font-face {
   font-family: 'Montserrat-Bold';
-  src: url(../fonts/Montserrat-Bold.ttf);
+  src: url(../assets/fonts/Montserrat-Bold.ttf);
   font-weight: 700;
 }
 
 @font-face {
   font-family: 'Montserrat-Black';
-  src: url(../fonts/Montserrat-Black.ttf);
+  src: url(../assets/fonts/Montserrat-Black.ttf);
   font-weight: 900;
 }
 
@@ -43,9 +43,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-flex: 1;
-      -ms-flex-positive: 1;
-          flex-grow: 1;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -67,7 +64,7 @@ body {
 
 .logo {
   display: block;
-  background: url(../img/logo.png) no-repeat;
+  background: url(../assets/img/logo.png) no-repeat;
   width: 185px;
   height: 22px;
 }
@@ -112,21 +109,42 @@ body {
   width: 23px;
   height: 23px;
   margin-left: 10px;
-  background: url(../img/search.png) no-repeat;
+  background: url(../assets/img/search.png) no-repeat;
 }
 
-.patch {
-  position: absolute;
-  top: 0;
-  z-index: 1;
-  width: 100%;
-  height: 2px;
-  background: #f0f0f0;
+.button {
+  width: 212px;
+  height: 45px;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0px 2px 5px 0px rgba(33, 33, 33, 0.34);
+          box-shadow: 0px 2px 5px 0px rgba(33, 33, 33, 0.34);
+  border-radius: 22.5px;
+  border: none;
+  font-family: 'Montserrat-Bold';
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #212121;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.button-update {
+  background: none;
+  border: none;
+  width: 40px;
+  height: 40px;
+  background: url(../assets/img/update.svg) no-repeat;
+  background-size: cover;
+  cursor: pointer;
 }
 
 .slider {
   position: relative;
-  background: #f0f0f0 url(../img/slider.png) no-repeat 100%;
+  background: #f0f0f0 url(../assets/img/slider.png) no-repeat 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -175,34 +193,21 @@ body {
   margin-bottom: 30px;
 }
 
-.button {
-  width: 212px;
-  height: 45px;
-  background-color: #ffffff;
-  -webkit-box-shadow: 0px 2px 5px 0px rgba(33, 33, 33, 0.34);
-          box-shadow: 0px 2px 5px 0px rgba(33, 33, 33, 0.34);
-  border-radius: 22.5px;
-  border: none;
-  font-family: 'Montserrat-Bold';
-  font-size: 18px;
-  line-height: 24px;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  color: #212121;
-}
-
-.button:hover {
-  cursor: pointer;
-}
-
-.button-update {
-  background: none;
-  border: none;
-  width: 40px;
+.slider-control {
+  position: absolute;
+  bottom: 20px;
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   height: 40px;
-  background: url(../img/update.svg) no-repeat;
-  background-size: cover;
-  cursor: pointer;
+  width: 100%;
 }
 
 .circle-small {
@@ -228,23 +233,6 @@ body {
 .circle:hover {
   background: #212121;
   cursor: pointer;
-}
-
-.slider-control {
-  position: absolute;
-  bottom: 20px;
-  z-index: 1;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  height: 40px;
-  width: 100%;
 }
 
 .featured {
@@ -495,7 +483,7 @@ body {
 }
 
 .hot-deal {
-  background: url(../img/hot-deal.png) no-repeat 100%;
+  background: url(../assets/img/hot-deal.png) no-repeat 100%;
   width: 100%;
   background-size: cover;
 }
@@ -587,7 +575,7 @@ body {
 }
 
 .mobile-app {
-  background: url(../img/back_img.png) no-repeat;
+  background: url(../assets/img/back_img.png) no-repeat;
   background-size: cover;
   height: 516px;
   position: relative;
@@ -641,14 +629,14 @@ body {
   margin-right: 10px;
   width: 135px;
   height: 40px;
-  background: url(../img/app_store.png) no-repeat;
+  background: url(../assets/img/app_store.png) no-repeat;
 }
 
 .mobile-app-links .googlePlay {
   width: 135px;
   height: 40px;
   display: block;
-  background: url(../img/google_play.png) no-repeat;
+  background: url(../assets/img/google_play.png) no-repeat;
 }
 
 .footer {
