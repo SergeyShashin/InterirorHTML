@@ -195,6 +195,16 @@ body {
   cursor: pointer;
 }
 
+.button-update {
+  background: none;
+  border: none;
+  width: 40px;
+  height: 40px;
+  background: url(../img/update.svg) no-repeat;
+  background-size: cover;
+  cursor: pointer;
+}
+
 .circle-small {
   width: 30px;
   height: 30px;
@@ -429,7 +439,6 @@ body {
   font-family: 'Montserrat-Bold';
   font-size: 36px;
   line-height: 1.2;
-  font-weight: 700;
   color: #212121;
 }
 
@@ -466,6 +475,23 @@ body {
   margin-left: 15px;
   margin-right: 15px;
   margin-bottom: 30px;
+}
+
+.products-trending__menu {
+  padding-left: 0;
+}
+
+.products-trending__item {
+  height: 40px;
+  font-family: 'Montserrat-Bold';
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #6c6c6c;
+}
+
+.products-trending__item:hover {
+  color: #212121;
 }
 
 .hot-deal {
@@ -787,5 +813,36 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.05em;
   color: #6c6c6c;
+}
+
+.header {
+  height: 300px;
+  background: #f0f0f0;
+  padding: 50px 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  font-size: 62px;
+  line-height: 72px;
+  color: #212121;
+}
+
+.line {
+  width: 300px;
+  border-bottom: 1px solid #6c6c6c;
+}
+
+.catalog-page__products {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.catalog-page__button-update {
+  text-align: center;
+  margin-top: 70px;
 }
 /*# sourceMappingURL=style.css.map */
