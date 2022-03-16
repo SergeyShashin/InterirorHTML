@@ -801,6 +801,10 @@ body {
   color: #6c6c6c;
 }
 
+.social {
+  cursor: pointer;
+}
+
 .social img {
   height: 26px;
 }
@@ -812,6 +816,10 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   letter-spacing: 0.05em;
+  color: #6c6c6c;
+}
+
+.terms a {
   color: #6c6c6c;
 }
 
