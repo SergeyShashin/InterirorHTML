@@ -287,9 +287,13 @@ body {
 }
 
 .tab-control__product-details-page {
+  height: 70px;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   background-color: #f4f4f4;
 }
 
@@ -854,5 +858,18 @@ body {
 .catalog-page__button-update {
   text-align: center;
   margin-top: 70px;
+}
+
+.product-details-page__item {
+  height: 20px;
+  font-family: 'Montserrat-Bold';
+  font-size: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #6c6c6c;
+}
+
+.product-details-page__item:hover {
+  color: #212121;
 }
 /*# sourceMappingURL=style.css.map */
